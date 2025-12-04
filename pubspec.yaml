@@ -1,0 +1,42 @@
+name: defensa_del_muro
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.33.0
+  video_player: ^2.8.1
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  provider: ^6.1.5+1
+  google_sign_in: 6.1.5
+  flutter_paypal: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fondos/
+    - assets/botones/
+    - assets/fondos/fondo_carga.mp4
+    - assets/fondos/fondo_home.mp4
+    - assets/images/
+    - assets/fondos/level_select_bg.png
+
+  fonts:
+    - family: Medieval
+      fonts:
+        - asset: assets/fonts/MedievalSharp-Regular.ttf
